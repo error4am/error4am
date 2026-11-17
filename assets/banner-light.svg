@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Muhammad Hamza Aslam — local-first media tools">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B49E8"/>
+      <stop offset="50%" stop-color="#0FA3C4"/>
+      <stop offset="100%" stop-color="#5B49E8"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3F4F9"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#0A0A10" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#fade)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)" opacity="0.9"/>
+
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="72" y="132" fill="#12131A" font-size="52" font-weight="700" letter-spacing="-1.2">Muhammad Hamza Aslam</text>
+    <text x="74" y="176" fill="#5A6076" font-size="22" letter-spacing="0.2">I build local-first media tools that replace paid SaaS.</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="15">
+      <text x="74" y="236" fill="#5B49E8">clip</text>
+      <text x="122" y="236" fill="#B3B8C8">/</text>
+      <text x="140" y="236" fill="#0FA3C4">sync</text>
+      <text x="188" y="236" fill="#B3B8C8">/</text>
+      <text x="206" y="236" fill="#5B49E8">caption</text>
+      <text x="284" y="236" fill="#B3B8C8">/</text>
+      <text x="302" y="236" fill="#0FA3C4">render</text>
+    </g>
+
+    <text x="1128" y="236" fill="#8A90A6" font-size="15" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">github.com/error4am</text>
+  </g>
+</svg>
