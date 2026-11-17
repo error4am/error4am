@@ -11,14 +11,23 @@ Six things I've built and finished enough to show. Different domains, same appro
 
 <br>
 
-| Project | What it does | |
-|---|---|---|
-| [**ytclipper**](https://github.com/error4am/ytclipper) | Clips a YouTube live stream while it's still streaming — rolling buffer, hype detection from audio + chat, local captions, 9:16 export | `Python · 4.3k lines` |
-| [**tempass**](https://github.com/error4am/tempass) | Two-person YouTube watch party: rooms, invite links, live presence, chat, clock-synced playback | [live](https://tempass.vercel.app) · `13 test suites` |
-| [**dairy-farm**](https://github.com/error4am/dairy-farm) | Dairy management for a working farm — animals, milk yield, breeding, health, staff, finances | `React · Node · SQLite` |
-| [**photo-museum**](https://github.com/error4am/photo-museum) | First-person 3D gallery in Three.js, 33 frames, procedurally built — no Blender, no engine | [live](https://photo-museum-bice.vercel.app) |
-| [**land-converter**](https://github.com/error4am/land-converter) | Pakistani land-unit calculator — Kanal, Marla, Acre, Bigha, with state-specific conversions | [live](https://land-converter-navy.vercel.app) |
-| [**errorify**](https://github.com/error4am/errorify) | AI chat UI on a hardened Express proxy — rate limits, CORS allowlist, local-only history | [live](https://errorify.vercel.app) |
+**[ytclipper](https://github.com/error4am/ytclipper)** — clips a YouTube live stream while it's still streaming. Rolling buffer, hype detection from audio + chat, local captions, 9:16 export.
+<sub>Python · ~4,300 lines · no API keys</sub>
+
+**[tempass](https://github.com/error4am/tempass)** — two-person YouTube watch party: rooms, invite links, live presence, chat, clock-synced playback.
+<sub>TypeScript · 13 test suites · [live ↗](https://tempass.vercel.app)</sub>
+
+**[dairy-farm](https://github.com/error4am/dairy-farm)** — dairy management built for a working farm: animals, milk yield, breeding, health, staff and finances.
+<sub>React · Node · SQLite · migrations, backups, validation</sub>
+
+**[photo-museum](https://github.com/error4am/photo-museum)** — first-person 3D gallery in Three.js with 33 frames, built procedurally. No Blender, no game engine.
+<sub>JavaScript · WebGL · [live ↗](https://photo-museum-bice.vercel.app)</sub>
+
+**[land-converter](https://github.com/error4am/land-converter)** — Pakistani land-unit calculator: Kanal, Marla, Acre, Bigha, with state-specific conversions.
+<sub>HTML/JS · SEO-first · [live ↗](https://land-converter-navy.vercel.app)</sub>
+
+**[errorify](https://github.com/error4am/errorify)** — AI chat UI on a hardened Express proxy: rate limits, CORS allowlist, history kept local.
+<sub>React · Express · [live ↗](https://errorify.vercel.app)</sub>
 
 <br>
 
