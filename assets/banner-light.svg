@@ -7,7 +7,11 @@
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F3F4F9"/>
+      <stop offset="100%" stop-color="#F4F5FA"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0FA3C4"/>
+      <stop offset="100%" stop-color="#5B49E8"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#0A0A10" stroke-opacity="0.05" stroke-width="1"/>
@@ -17,6 +21,27 @@
   <rect width="1200" height="300" fill="url(#fade)"/>
   <rect width="1200" height="300" fill="url(#grid)"/>
   <rect x="0" y="0" width="1200" height="3" fill="url(#accent)" opacity="0.9"/>
+
+  <g fill="url(#bars)">
+    <rect x="880"  y="128" width="7" height="24"  rx="3.5" opacity="0.31"/>
+    <rect x="894"  y="120" width="7" height="40"  rx="3.5" opacity="0.37"/>
+    <rect x="908"  y="106" width="7" height="68"  rx="3.5" opacity="0.43"/>
+    <rect x="922"  y="88"  width="7" height="104" rx="3.5" opacity="0.49"/>
+    <rect x="936"  y="65"  width="7" height="150" rx="3.5" opacity="0.57"/>
+    <rect x="950"  y="47"  width="7" height="186" rx="3.5" opacity="0.64"/>
+    <rect x="964"  y="69"  width="7" height="142" rx="3.5" opacity="0.58"/>
+    <rect x="978"  y="92"  width="7" height="96"  rx="3.5" opacity="0.52"/>
+    <rect x="992"  y="111" width="7" height="58"  rx="3.5" opacity="0.46"/>
+    <rect x="1006" y="122" width="7" height="36"  rx="3.5" opacity="0.40"/>
+    <rect x="1020" y="125" width="7" height="30"  rx="3.5" opacity="0.36"/>
+    <rect x="1034" y="114" width="7" height="52"  rx="3.5" opacity="0.42"/>
+    <rect x="1048" y="96"  width="7" height="88"  rx="3.5" opacity="0.49"/>
+    <rect x="1062" y="77"  width="7" height="126" rx="3.5" opacity="0.56"/>
+    <rect x="1076" y="94"  width="7" height="92"  rx="3.5" opacity="0.48"/>
+    <rect x="1090" y="113" width="7" height="54"  rx="3.5" opacity="0.41"/>
+    <rect x="1104" y="124" width="7" height="32"  rx="3.5" opacity="0.35"/>
+    <rect x="1118" y="117" width="7" height="46"  rx="3.5" opacity="0.32"/>
+  </g>
 
   <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
     <text x="72" y="132" fill="#12131A" font-size="52" font-weight="700" letter-spacing="-1.2">Muhammad Hamza Aslam</text>
@@ -32,6 +57,6 @@
       <text x="302" y="236" fill="#0FA3C4">render</text>
     </g>
 
-    <text x="1128" y="236" fill="#8A90A6" font-size="15" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">github.com/error4am</text>
+    <text x="74" y="272" fill="#8A90A6" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">github.com/error4am</text>
   </g>
 </svg>
